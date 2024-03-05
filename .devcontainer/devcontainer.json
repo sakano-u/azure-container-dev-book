@@ -16,7 +16,7 @@
 	// VS Codeと拡張の設定
 	"settings": {
 		"java.jdt.ls.java.home": "/docker-java-home"
-	},
+	},	
 	// VS Codeに導入する拡張を指定
 	"extensions": [
 		"vscjava.vscode-java-pack",
