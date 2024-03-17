@@ -33,10 +33,10 @@ jobs:
         az acr login
         ./mvnw compile test com.google.cloud.tools:jib-maven-plugin:3.2.1:build \
         -Djib.from.image=eclipse-temurin:17.0.4_8-jre-alpine \
-        -Djib.to.image=ttakumicondevacr01.azurecr.io/todolist\
-        -Djib.tp.tags=v1.0.0-tem_17.0.4_8-jre-alpine_$GITHUB_SHA,latest\
+        -Djib.to.image=ttakumicondevacr01.azurecr.io/todolist \
+        -Djib.tp.tags=v1.0.0-tem_17.0.4_8-jre-alpine_$GITHUB_SHA,latest \
         -Djib.container.entrypoint=sh,webapp_startup.sh \
-        -Djib.container.ports=8080,2222\
+        -Djib.container.ports=8080,2222 \
         -Djib.container.environment=JDK_JAVA_OPTIONS="-Xmx512m -XX:StartFlightRecording"
 
 
