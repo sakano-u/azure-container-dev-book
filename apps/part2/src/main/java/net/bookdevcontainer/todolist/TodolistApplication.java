@@ -3,7 +3,7 @@ package net.bookdevcontainer.todolist;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-// github actionのテスト
+// github actionのテスト No2
 
 @SpringBootApplication
 public class TodolistApplication {
