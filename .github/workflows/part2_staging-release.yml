@@ -3,7 +3,7 @@ name: "Staging Release(Part2)"
 on:
   workflow_dispatch:
   push:
-    branches: [ "main" ] 
+    branches: [ "develop" ] 
     paths: 'apps/part2/**'
 
 jobs:
