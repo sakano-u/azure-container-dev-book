@@ -42,5 +42,6 @@ jobs:
 
     - name: Update Staging Slot with the Latest Image #
       run: |
-        az webapp config container set -g ttakumi_azure_train --name ttakumitodolist --slot production \
-        --docker-custom-image-name ttakumicondevacr01.azurecr.io/todolist:v1.0.0-tem_17.0.4_8-jre-alpine_$GITHUB_SHA
+        az webapp config container set -g ttakumi_azure_train --name ttakumitodolist \  
+        --docker-custom-image-name ttakumicondevacr01.azurecr.io/todolist:v1.0.0-tem_17.0.4_8-jre-alpine_$GITHUB_SHA 
+# --slot production 
