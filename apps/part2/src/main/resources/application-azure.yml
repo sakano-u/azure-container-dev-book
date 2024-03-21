@@ -4,8 +4,7 @@ spring:
       ddl-auto: update
   datasource:
     url: 'jdbc:mysql://ttakumimysqltodo.mysql.database.azure.com:3306/defaultdb'
-    username: myadmin
-    password: admin
+    username: managediduser
   # データベースのスキーマ
   # https://docs.spring.io/spring-boot/docs/current/reference/html/howto.html#howto.data-initialization.using-basic-sql-scripts
   sql:
