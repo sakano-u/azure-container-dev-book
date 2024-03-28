@@ -4,12 +4,12 @@
 #     url: https://schedule.xxx.japaneast.azurecontainerapps.io/schedule
 
 # # Resilience4j の設定
-# resilience4j:
-#   retry: #リトライの設定
-#     instances:
-#       scheduleRetry:
-#         max-attempts: 10
-#         waitDuration: 1s
+resilience4j:
+  retry: #リトライの設定
+    instances:
+      scheduleRetry:
+        max-attempts: 10
+        waitDuration: 1s
 
 #   ratelimiter:  #レート制限の設定
 #     limiters:

@@ -30,7 +30,7 @@ public class ScheduleServiceImpl implements ScheduleService {
 
     @Override
     // リトライを設定する場合は次の行を有効化してください
-    // @Retry(name = "scheduleRetry", fallbackMethod = "retryFallback")
+    @Retry(name = "scheduleRetry", fallbackMethod = "retryFallback")
     public ResponseEntity<String> schedule() {
         
         log.info("Invoke Schedule API:  count= " + i++);
