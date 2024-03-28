@@ -1,7 +1,7 @@
 Backend API using Java
 
 ###
-POST https://backend.xxx.japaneast.azurecontainerapps.io/api/v1/todos
+POST https://backend.ambitiouspebble-ce881819.japaneast.azurecontainerapps.io/api/v1/todos
 content-type: application/json
 
 {
@@ -12,10 +12,10 @@ content-type: application/json
 }
 
 ###
-GET https://backend.xxx.japaneast.azurecontainerapps.io/api/v1/todos
+GET https://backend.ambitiouspebble-ce881819.japaneast.azurecontainerapps.io/api/v1/todos
 
 ###
-PUT https://backend.xxx.japaneast.azurecontainerapps.io/api/v1/todos/1
+PUT https://backend.ambitiouspebble-ce881819.japaneast.azurecontainerapps.io/api/v1/todos/1
 content-type: application/json
 
 {
@@ -26,11 +26,11 @@ content-type: application/json
 }
 
 ###
-DELETE https://backend.xxx.japaneast.azurecontainerapps.io/api/v1/todos/1
+DELETE https://backend.ambitiouspebble-ce881819.japaneast.azurecontainerapps.io/api/v1/todos/2
 
 
 ###
-GET https://backend.xxx.japaneast.azurecontainerapps.io/api/v1/schedule
+GET https://backend.xambitiouspebble-ce881819.japaneast.azurecontainerapps.io/api/v1/schedule
 
 
 ###
