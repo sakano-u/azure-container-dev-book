@@ -10,7 +10,7 @@ import org.springframework.web.client.RestTemplate;
 import lombok.extern.slf4j.Slf4j;
 
 // リトライを設定する場合は次の行を有効化してください
-// import io.github.resilience4j.retry.annotation.Retry;
+import io.github.resilience4j.retry.annotation.Retry;
 
 
 @Slf4j
